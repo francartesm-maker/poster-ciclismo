@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Estabilidad Biacromial en Ciclismo Estacionario · Referencias</title>
+<style>
+:root{--bg:#f4f7fb;--sf:#fff;--tx:#0e1a2b;--mu:#5b6b82;--ac:#0a8f7a;--ac2:#e2562b;--bd:#d9e1ec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#070d18;--sf:#0f1a2c;--tx:#e8eef8;--mu:#8da0bb;--ac:#2de2c0;--ac2:#ff7a45;--bd:#1f3050}}
+:root[data-theme="dark"]{--bg:#070d18;--sf:#0f1a2c;--tx:#e8eef8;--mu:#8da0bb;--ac:#2de2c0;--ac2:#ff7a45;--bd:#1f3050}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:0 18px 60px}
+.hero{position:relative;overflow:hidden;padding:34px 0 8px}
+.eyebrow{color:var(--ac);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700}
+h1{font-size:clamp(26px,6.2vw,42px);line-height:1.1;margin:10px 0 8px;letter-spacing:-.02em}
+h1 span{color:var(--ac)}
+.sub{color:var(--mu);margin:0 0 14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.chip{border:1px solid var(--bd);background:var(--sf);border-radius:99px;padding:5px 12px;font-size:13px}
+.chip b{color:var(--ac)}
+svg.road{width:100%;height:auto;display:block;margin:6px 0}
+.road path.t{fill:none;stroke:var(--bd);stroke-width:26;stroke-linecap:round}
+.road path.d{fill:none;stroke:var(--ac);stroke-width:2;stroke-dasharray:3 14;stroke-linecap:round;animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-34}}
+.rider{fill:var(--ac2)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0 26px}
+.stat{background:var(--sf);border:1px solid var(--bd);border-radius:14px;padding:12px;text-align:center}
+.stat b{display:block;font-size:24px;color:var(--ac)}.stat small{color:var(--mu);font-size:12px}
+h2{font-size:20px;margin:30px 0 4px}
+.lead{color:var(--mu);font-size:14px;margin:0 0 14px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:10px 0;display:grid;gap:8px}
+input[type=search]{width:100%;padding:11px 14px;border-radius:12px;border:1px solid var(--bd);background:var(--sf);color:var(--tx);font-size:16px}
+.f{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.f button{white-space:nowrap;border:1px solid var(--bd);background:var(--sf);color:var(--tx);border-radius:99px;padding:6px 13px;font-size:13px;cursor:pointer}
+.f button.on{background:var(--ac);color:#04121a;border-color:var(--ac);font-weight:700}
+.card{background:var(--sf);border:1px solid var(--bd);border-left:4px solid var(--ac);border-radius:14px;padding:14px 16px;margin:10px 0;animation:in .4s both}
+.card.key{border-left-color:var(--ac2)}
+@keyframes in{from{opacity:0;transform:translateY(8px)}}
+.role{display:inline-block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ac2);font-weight:700;margin-bottom:4px}
+.cite{font-size:14.5px;word-break:break-word;margin:0}
+.cite a{color:var(--ac);text-decoration:none;border-bottom:1px dotted var(--ac)}
+.row{display:flex;gap:10px;align-items:center;margin-top:9px}
+.tag{font-size:11px;color:var(--mu);border:1px solid var(--bd);border-radius:6px;padding:1px 7px}
+.row button{margin-left:auto;border:1px solid var(--bd);background:transparent;color:var(--tx);border-radius:8px;padding:4px 10px;font-size:12px;cursor:pointer}
+.empty{color:var(--mu);text-align:center;padding:20px}
+footer{color:var(--mu);font-size:12px;text-align:center;margin-top:34px}
+.theme{position:absolute;right:0;top:34px;border:1px solid var(--bd);background:var(--sf);color:var(--tx);border-radius:99px;width:36px;height:36px;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<button class="theme" id="th" aria-label="Cambiar tema">◐</button>
+<div class="eyebrow">Póster científico · Ciclismo estacionario</div>
+<h1>Estabilidad <span>biacromial</span>, dinámica pélvica y tolerancia oculomotora</h1>
+<p class="sub">Ciclismo estacionario bajo simulación visual curvilínea</p>
+<svg class="road" viewBox="0 0 400 90" aria-hidden="true">
+<path id="p" class="t" d="M10 60 C70 5, 130 5, 200 45 S330 85, 390 30"/>
+<path class="d" d="M10 60 C70 5, 130 5, 200 45 S330 85, 390 30"/>
+<circle class="rider" r="7"><animateMotion dur="6s" repeatCount="indefinite" rotate="auto"><mpath href="#p"/></animateMotion></circle>
+</svg>
+<div class="chips"><span class="chip"><b>N</b> = 6</span><span class="chip">Cinemática</span><span class="chip">Vección</span><span class="chip">Simulator sickness</span></div>
+</header>
+<div class="stats"><div class="stat"><b>3</b><small>Fundamentales</small></div><div class="stat"><b>29</b><small>Referencias APA 7</small></div><div class="stat"><b id="vis">29</b><small>Mostradas</small></div></div>
+
+<h2>I. Las 3 referencias fundamentales</h2>
+<p class="lead">Informe III y póster</p>
+<div id="key"></div>
+
+<h2>II. Listado completo del proyecto</h2>
+<p class="lead">29 referencias en APA 7.ª edición. Toca un DOI para abrir el artículo.</p>
+<div class="bar">
+<input type="search" id="q" placeholder="Buscar autor, año o título…" aria-label="Buscar">
+<div class="f" id="f"></div>
+</div>
+<div id="list"></div>
+<footer>Referencias del proyecto · Estabilidad Biacromial, Dinámica Pélvica y Tolerancia Oculomotora (N = 6)</footer>
+</div>
+<script>
+const T={B:"Biomecánica y ciclismo",V:"Vección y cybersickness",P:"Control postural",S:"Estadística y señales"};
+const KEY=[
+["Cinemática estática vs. dinámica en ciclistas","Holliday, W., Fisher, J., Theo, R., & Swart, J. (2017). Static versus dynamic kinematics in cyclists: A comparison of goniometer, inclinometer and 3D motion capture. European Journal of Sport Science, 17(9), 1129–1142. https://pubmed.ncbi.nlm.nih.gov/28749730/"],
+["Cuestionario de mareo por simulador (SSQ)","Kennedy, R. S., Lane, N. E., Berbaum, K. S., & Lilienthal, M. G. (1993). Simulator Sickness Questionnaire: An enhanced method for quantifying simulator sickness. The International Journal of Aviation Psychology, 3(3), 203–220. https://doi.org/10.1207/s15327108ijap0303_3"],
+["Sensores portátiles y simuladores de ciclismo en RV","Pöhler, J., Vitt, A., Wolling, F., Michahelles, F., & Van Laerhoven, K. (2026). Wearable sensors reveal the reality gap: A full-body motion dataset for validating VR cycling simulators. Frontiers in Computer Science, 8, 1853976. https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1853976/full"]];
+const R=[
+"P|Assländer, L., & Peterka, R. J. (2014). Sensory reweighting dynamics in human postural control. Journal of Neurophysiology, 111(9), 1852–1864. https://doi.org/10.1152/jn.00669.2013",
+"S|Balasubramanian, S., Melendez-Calderon, A., Roby-Brami, A., & Burdet, E. (2015). On the analysis of movement smoothness. Journal of NeuroEngineering and Rehabilitation, 12, 112. https://doi.org/10.1186/s12984-015-0090-9",
+"S|Barr, D. J., Levy, R., Scheepers, C., & Tily, H. J. (2013). Random effects structure for confirmatory hypothesis testing: Keep it maximal. Journal of Memory and Language, 68(3), 255–278. https://doi.org/10.1016/j.jml.2012.11.001",
+"S|Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. Journal of the Royal Statistical Society: Series B (Methodological), 57(1), 289–300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+"V|Berti, S., & Keshavarz, B. (2020). Neuropsychological approaches to visually induced vection: An overview and evaluation of neuroimaging and neurophysiological studies. Frontiers in Neurology, 11, 573059. https://doi.org/10.3389/fneur.2020.573059",
+"B|Bini, R. R., Hume, P. A., & Croft, J. L. (2014). Biomechanics of Cycling. Springer International Publishing. https://doi.org/10.1007/978-3-319-05539-8",
+"P|Cain, S. M., Ashton-Miller, J. A., & Perkins, N. C. (2016). On the skill of balancing while riding a bicycle. PLOS ONE, 11(2), e0149340. https://doi.org/10.1371/journal.pone.0149340",
+"B|Chapman, A. R., Vicenzino, B., Blanch, P., & Hodges, P. W. (2008). Patterns of leg muscle recruitment vary between novice and highly trained cyclists. Journal of Electromyography and Kinesiology, 18(3), 359–371. https://doi.org/10.1016/j.jelekin.2005.12.007",
+"B|Costes, A., Turpin, N. A., Villeger, D., Moretto, P., & Watier, B. (2015). A reduction of the saddle vertical force triggers the sit-to-stand transition in cycling. Journal of Biomechanics, 48(12), 2998–3003. https://doi.org/10.1016/j.jbiomech.2015.07.035",
+"S|Delgado-Bonal, A., & Marshak, A. (2019). Approximate entropy and sample entropy: A comprehensive tutorial. Entropy, 21(6), 541. https://doi.org/10.3390/e21060541",
+"S|Eldridge, S. M., Chan, C. L., Campbell, M. J., Bond, C. M., Hopewell, S., Thabane, L., & Lancaster, G. A. (2016). CONSORT 2010 statement: Extension to randomised pilot and feasibility trials. BMJ, 355, i5239. https://doi.org/10.1136/bmj.i5239",
+"B|"+KEY[0][1],
+"V|Jiang, Y., et al. (2023). Effects of speed and display types on cybersickness in virtual reality cycling. Displays, 78, 102410. https://doi.org/10.1016/j.displa.2023.102410",
+"V|"+KEY[1][1],
+"V|Keshavarz, B., Riecke, B. E., Hettinger, L. J., & Campos, J. L. (2015). Vection and visually induced motion sickness: How are they related? Frontiers in Psychology, 6, 472. https://doi.org/10.3389/fpsyg.2015.00472",
+"S|Lakens, D. (2013). Calculating and reporting effect sizes to facilitate cumulative science: A practical primer for t-tests and ANOVAs. Frontiers in Psychology, 4, 863. https://doi.org/10.3389/fpsyg.2013.00863",
+"S|Lamb, P. F., & Stöckl, M. (2014). On the use of continuous relative phase: Review of current approaches and outline for a new standard. Clinical Biomechanics, 29(5), 484–493. https://doi.org/10.1016/j.clinbiomech.2014.03.008",
+"V|Oman, C. M. (1990). Motion sickness: A synthesis and evaluation of the sensory conflict theory. Canadian Journal of Physiology and Pharmacology, 68(2), 294–303. https://doi.org/10.1139/y90-039",
+"P|Paillard, T. (2017). Plasticity of the postural function to sport and/or motor experience. Neuroscience & Biobehavioral Reviews, 72, 129–152. https://doi.org/10.1016/j.neubiorev.2016.11.015",
+"V|Palmisano, S., Allison, R. S., Schira, M. M., & Barry, R. J. (2015). Future challenges for vection research: Definitions, functional significance, mechanisms, and neural bases. Frontiers in Psychology, 6, 193. https://doi.org/10.3389/fpsyg.2015.00193",
+"S|Peng, C.-K., Havlin, S., Stanley, H. E., & Goldberger, A. L. (1995). Quantification of scaling exponents and crossover phenomena in nonstationary heartbeat time series. Chaos, 5(1), 82–87. https://doi.org/10.1063/1.166141",
+"P|Peterka, R. J. (2002). Sensorimotor integration in human postural control. Journal of Neurophysiology, 88(3), 1097–1118. https://doi.org/10.1152/jn.2002.88.3.1097",
+"B|Pöhler, J., Vitt, A., Wolling, F., Michahelles, F., & Van Laerhoven, K. (2025). Steering in Virtual Reality Cycling: Evaluating Hands-Free and Controller-Based Steering Methods. Proceedings of the ACM Symposium on User Interface Software and Technology (UIST ’25). https://doi.org/10.1145/3746058.3758405",
+"B|"+KEY[2][1],
+"S|Richman, J. S., & Moorman, J. R. (2000). Physiological time-series analysis using approximate entropy and sample entropy. American Journal of Physiology-Heart and Circulatory Physiology, 278(6), H2039–H2049. https://doi.org/10.1152/ajpheart.2000.278.6.H2039",
+"B|Swart, J., & Holliday, W. (2019). Cycling biomechanics optimization—the (R)evolution of bicycle fitting. Current Sports Medicine Reports, 18(12), 490–496. https://pubmed.ncbi.nlm.nih.gov/31834181/",
+"S|Welch, P. D. (1967). The use of fast Fourier transform for the estimation of power spectra: A method based on time averaging over short, modified periodograms. IEEE Transactions on Audio and Electroacoustics, 15(2), 70–73. https://doi.org/10.1109/TAU.1967.1161901",
+"B|Winter, D. A. (2009). Biomechanics and Motor Control of Human Movement (4th ed.). John Wiley & Sons. https://doi.org/10.1002/9780470549148",
+"S|Yentes, J. M., Hunt, N., Schmid, K. K., Kaipust, J. P., McGrath, D., & Stergiou, N. (2013). The appropriate use of approximate entropy and sample entropy with short data sets. Annals of Biomedical Engineering, 41(2), 349–365. https://doi.org/10.1007/s10439-012-0668-3"
+].map(s=>({t:s[0],c:s.slice(2)}));
+const link=c=>c.replace(/(https?:\/\/\S+)$/,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+function card(c,tag,role,i){return `<div class="card${role?' key':''}" style="animation-delay:${Math.min(i*30,400)}ms">${role?`<div class="role">${role}</div>`:''}<p class="cite">${link(esc(c))}</p><div class="row">${tag?`<span class="tag">${tag}</span>`:''}<button data-c="${encodeURIComponent(c)}">Copiar cita</button></div></div>`}
+document.getElementById("key").innerHTML=KEY.map((k,i)=>card(k[1],"",k[0],i)).join("");
+let flt="all";const f=document.getElementById("f"),q=document.getElementById("q"),L=document.getElementById("list");
+f.innerHTML=[["all","Todas"],...Object.entries(T)].map(([k,v])=>`<button data-k="${k}" class="${k=="all"?"on":""}">${v}</button>`).join("");
+function render(){const s=q.value.toLowerCase().trim();const r=R.filter(x=>(flt=="all"||x.t==flt)&&x.c.toLowerCase().includes(s));
+document.getElementById("vis").textContent=r.length;
+L.innerHTML=r.length?r.map((x,i)=>card(x.c,T[x.t],"",i)).join(""):'<div class="empty">Sin resultados</div>'}
+f.onclick=e=>{const k=e.target.dataset.k;if(!k)return;flt=k;[...f.children].forEach(b=>b.classList.toggle("on",b.dataset.k==k));render()};
+q.oninput=render;render();
+document.addEventListener("click",e=>{const b=e.target.closest("button[data-c]");if(!b)return;
+const t=decodeURIComponent(b.dataset.c);const ok=()=>{b.textContent="¡Copiada!";setTimeout(()=>b.textContent="Copiar cita",1400)};
+try{navigator.clipboard.writeText(t).then(ok,()=>{})}catch(_){}});
+document.getElementById("th").onclick=()=>{const r=document.documentElement;const d=getComputedStyle(r).getPropertyValue("--bg").trim()=="#070d18";r.dataset.theme=d?"light":"dark"};
+</script>
+</body>
+</html>
